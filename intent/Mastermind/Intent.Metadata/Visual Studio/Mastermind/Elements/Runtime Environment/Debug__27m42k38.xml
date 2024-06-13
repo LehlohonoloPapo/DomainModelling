@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="8f5a7e20-2737-48f0-8991-c7d1fcc445de" type="Runtime Environment" typeId="9edf270e-3f38-406c-ac94-07b9737bb531">
+  <name>Debug</name>
+  <display>Debug</display>
+  <externalReference>9f3a3528-1f87-4f3b-a308-3bbaade96882</externalReference>
+  <isAbstract>false</isAbstract>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>abd15a62-5676-4648-9302-364d23152415</parentFolderId>
+  <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+  <packageName>Mastermind</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="c8cca0f1-6ec7-4392-9f37-915757f5f9d0" name="Amber Development Features">
+      <addedByDefault>false</addedByDefault>
+      <definitionPackageName>Qbic.Common</definitionPackageName>
+      <definitionPackageId>130ba41c-beb4-4de4-8145-4bb65d258b3b</definitionPackageId>
+      <properties>
+        <property name="28c21b8d-ef42-4954-82dc-73068cfa3388" display="Disable Actors" value="true" isActive="true" />
+        <property name="60c5e0a0-bfa8-4ae7-a8d9-bc792cd100a5" display="Disable Authentication" value="true" isActive="true" />
+        <property name="2370a3cb-6f87-4b99-9d85-ea3f1c5874d3" display="Disable Apache Ignite" value="true" isActive="true" />
+        <property name="780a2cfb-c347-4b0d-af9a-d384b1aec0f7" display="Enable Interactive Swagger UI" value="true" isActive="true" />
+        <property name="e5347b6e-f368-491d-8083-71bb8c5671e9" display="Enable Developer Logging" value="true" isActive="true" />
+        <property name="8e4b27a4-1437-40c4-93a1-83c10623e98b" display="Enable Sensitive Logging" value="true" isActive="true" />
+        <property name="168aab12-022a-4b7b-b19f-e52f7cc7b753" display="Disable ZooKeeper" value="true" isActive="true" />
+        <property name="f0ce3fa5-ab67-4e07-892f-3a6aa3f6816c" display="Disable Redis" value="true" isActive="true" />
+        <property name="11708949-95e9-4367-b6d1-8b9bab76b8ba" display="Disabled Airgap" value="false" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+  <metadata />
+  <childElements />
+</class>

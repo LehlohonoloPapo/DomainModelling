@@ -1,0 +1,19 @@
+<Project>
+
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageVersion Include="Amber.Dotnet" Version="$(AmberFrameworkVersion)" />
+    <PackageVersion Include="Amber.Dotnet.Contracts" Version="$(AmberFrameworkVersion)" />
+    <PackageVersion Include="Amber.Dotnet.Data" Version="$(AmberFrameworkVersion)" />
+    <PackageVersion Include="Amber.Dotnet.Unit" Version="$(AmberFrameworkVersion)" />
+    <PackageVersion Include="Amber.Framework.Http" Version="$(AmberFrameworkVersion)" />
+    <PackageVersion Include="Amber.Framework.Migrations" Version="$(AmberFrameworkVersion)" />
+    <PackageVersion Include="Intent.RoslynWeaver.Attributes" Version="2.1.4" />
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+    <PackageVersion Include="xunit" Version="2.5.1" />
+  </ItemGroup>
+
+</Project>

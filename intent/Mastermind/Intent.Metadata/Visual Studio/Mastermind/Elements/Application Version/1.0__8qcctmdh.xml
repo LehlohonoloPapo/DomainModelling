@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="1365317e-d730-4a44-ab3b-71cf0a03cd7d" type="Application Version" typeId="a64f5f0d-5ae0-40f1-861f-6adfd01fa0c3">
+  <name>1.0</name>
+  <display>1.0</display>
+  <externalReference>0501eee4-35c8-4a6c-b162-24936f0d628f</externalReference>
+  <isAbstract>false</isAbstract>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>3918a2d8-ee65-4f17-bcab-1c39774eb7e1</parentFolderId>
+  <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+  <packageName>Mastermind</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="7645a0bb-e2d3-4a44-aec6-65efa7d08d9d" name="Application Version Options">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Qbic.Common</definitionPackageName>
+      <definitionPackageId>130ba41c-beb4-4de4-8145-4bb65d258b3b</definitionPackageId>
+      <properties>
+        <property name="e5224ca6-a0d3-480f-b04d-7cb28e60e0c7" display="Deprecated" value="false" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+  <metadata />
+  <childElements />
+</class>

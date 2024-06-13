@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Mastermind.Tests</RootNamespace>
+    <AssemblyName>Mastermind.Tests</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <IsPackable>False</IsPackable>
+    <IsTestProject>True</IsTestProject>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Amber.Dotnet.Unit" />
+    <PackageReference Include="Intent.RoslynWeaver.Attributes" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="xunit" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Amber" />
+    <Using Include="Amber.Extensions" />
+    <Using Include="Amber.Framework.Logging" />
+    <Using Include="Amber.Framework.Serialization" />
+    <Using Include="Amber.Settings" />
+    <Using Include="Amber.Unit" />
+    <Using Include="FluentAssertions" />
+    <Using Include="Microsoft.FeatureManagement" />
+    <Using Include="NSubstitute" />
+    <Using Include="System.Diagnostics.CodeAnalysis" />
+    <Using Include="System.Linq" />
+    <Using Include="System.Runtime.CompilerServices" />
+    <Using Include="System.Runtime.Serialization" />
+    <Using Include="System.Text.Json.Serialization" />
+    <Using Include="Xunit" />
+  </ItemGroup>
+</Project>

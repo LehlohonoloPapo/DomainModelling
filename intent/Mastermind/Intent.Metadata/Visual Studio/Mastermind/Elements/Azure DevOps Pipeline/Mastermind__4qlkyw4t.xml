@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="05bc6c44-83e7-4dea-ae44-1f1818a71428" type="Azure DevOps Pipeline" typeId="10801b55-2044-41b9-8a11-4ea345d9a2f5">
+  <name>Mastermind</name>
+  <display>Mastermind</display>
+  <externalReference>fdebb1a8-2fe4-40b8-8123-f7e9423e387e</externalReference>
+  <isAbstract>false</isAbstract>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>3918a2d8-ee65-4f17-bcab-1c39774eb7e1</parentFolderId>
+  <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+  <packageName>Mastermind</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="69705224-f1a6-47a6-b5c6-3e2068cdb4c0" name="Version">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Qbic.DevOps</definitionPackageName>
+      <definitionPackageId>552b280e-787e-4009-a63e-f6f9eaf1c76b</definitionPackageId>
+      <properties>
+        <property name="7d30a721-be7d-4ea6-86fc-c4b8513a056c" display="Tag Prefix" isActive="true" />
+        <property name="61a54f57-befb-4e83-bb2e-6067fdec29c7" display="Tag Release Types" isActive="true" />
+      </properties>
+    </stereotype>
+    <stereotype stereotypeDefinitionId="b8b00464-6dff-4313-b0ed-234678c7d2c1" name="Tools">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Qbic.DevOps</definitionPackageName>
+      <definitionPackageId>552b280e-787e-4009-a63e-f6f9eaf1c76b</definitionPackageId>
+      <properties>
+        <property name="c0ff5633-519e-4a66-bb16-a18c7453285a" display="Intent Tools Version" isActive="true" />
+      </properties>
+    </stereotype>
+    <stereotype stereotypeDefinitionId="c496a0b3-15a6-47e1-8cf1-8ad6062af320" name="Deploy">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Qbic.DevOps</definitionPackageName>
+      <definitionPackageId>552b280e-787e-4009-a63e-f6f9eaf1c76b</definitionPackageId>
+      <properties>
+        <property name="c706647f-9476-49c6-8b2d-18c2929b26de" display="Preview Versions" value="true" isActive="true" />
+        <property name="fcbca9d2-c9ff-4981-b43b-e190b2f473b2" display="Early Preview Versions" value="false" isActive="true" />
+      </properties>
+    </stereotype>
+    <stereotype stereotypeDefinitionId="c5825c32-3be5-4d26-a840-b1a5d7886335" name="Pipeline Options">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Qbic.DevOps</definitionPackageName>
+      <definitionPackageId>552b280e-787e-4009-a63e-f6f9eaf1c76b</definitionPackageId>
+      <properties>
+        <property name="023c1a64-23db-4e90-b9de-42084bb8eb86" display="Type" value="build" isActive="true" />
+        <property name="57621f75-8ac2-4dec-8c17-43f17c716727" display="Version" value="stable" isActive="true" />
+        <property name="a3fea1fa-8d86-40e4-9c4f-e8c813f3f49b" display="Variant Name" isActive="true" />
+        <property name="bc501123-26dd-49ee-8ba3-dd3e25c20836" display="Custom Trigger Block" isActive="true" />
+      </properties>
+    </stereotype>
+    <stereotype stereotypeDefinitionId="c9783011-85e9-4e01-babc-c8ce00395521" name="Branch">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Qbic.DevOps</definitionPackageName>
+      <definitionPackageId>552b280e-787e-4009-a63e-f6f9eaf1c76b</definitionPackageId>
+      <properties>
+        <property name="ba42ed8a-2a63-42f4-a6bd-51b629db8f4c" display="Release Branch" isActive="true" />
+        <property name="45bddfac-242d-446d-b97b-a91798592668" display="Preview Candidates" isActive="true" />
+      </properties>
+    </stereotype>
+    <stereotype stereotypeDefinitionId="e309d1f8-2e7a-4788-bc35-cd49b4bf50dc" name="Build">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Qbic.DevOps</definitionPackageName>
+      <definitionPackageId>552b280e-787e-4009-a63e-f6f9eaf1c76b</definitionPackageId>
+      <properties>
+        <property name="8ab3b591-addd-4e8c-a8e4-533d1624109c" display="Toolset" value="dotnet-docker" isActive="true" />
+        <property name="fd956f8f-263a-4abb-9ac4-23d0fa08f899" display="Solution Name" isActive="true" />
+        <property name="ebf0837c-c2ba-413d-9b67-dfb515e3ae4d" display="Configuration" isActive="true" />
+        <property name="59e8d239-c13b-4f94-b26e-e61b37b18c33" display="Extra Restore Toolsets" isActive="true" />
+        <property name="ccd92aba-d851-4b7e-916f-246f9008e48f" display="Extra Build Toolsets" isActive="true" />
+        <property name="3aa3065e-5c20-4d74-bc36-b85c7b950e85" display="Extra Package Toolsets" isActive="true" />
+        <property name="19f3a66b-9a1b-4199-b053-28267d2e9d8d" display="Extra Full Toolsets" isActive="true" />
+      </properties>
+    </stereotype>
+    <stereotype stereotypeDefinitionId="f00d91a8-da3b-4cdc-bb94-cd7e9c5f2c3f" name="Directory">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Qbic.DevOps</definitionPackageName>
+      <definitionPackageId>552b280e-787e-4009-a63e-f6f9eaf1c76b</definitionPackageId>
+      <properties>
+        <property name="cd987c23-b4da-4f73-a62d-b6e333f9974b" display="Source Code Folder Name" isActive="true" />
+        <property name="c7f18312-d7cd-4150-a4d9-046faf73ec97" display="Octopus Folder Name" isActive="true" />
+      </properties>
+    </stereotype>
+    <stereotype stereotypeDefinitionId="fc980846-4832-48a0-81fc-9f5287bf33ce" name="Nuspec Discovery">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Qbic.DevOps</definitionPackageName>
+      <definitionPackageId>552b280e-787e-4009-a63e-f6f9eaf1c76b</definitionPackageId>
+      <properties>
+        <property name="e26a5df4-e118-40ef-8cae-b780af0cfbd0" display="Filter Tags" isActive="true" />
+        <property name="c4a26910-ee2f-45dc-8907-00e6356769c3" display="Filter Operator" value="and" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+  <metadata />
+  <childElements />
+</class>

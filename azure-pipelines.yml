@@ -1,0 +1,29 @@
+parameters:
+- name: queue
+  type: object
+  default: 
+    type: build
+
+trigger: 
+  - master
+  - release/*
+  - hotfix/*
+
+resources:
+  repositories:    
+  - repository: tools
+    type: git
+    ref: refs/tags/stable
+    name: Amber/Amber.Devops
+
+extends:
+  template: main.yml@tools
+  parameters:
+    queue: ${{ parameters.queue }}
+    build:
+      toolset: dotnet-docker
+      solution: Mastermind
+    directory:
+      src: src
+    version:
+      major_minor: 1.0

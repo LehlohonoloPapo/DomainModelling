@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="add87a20-c0ac-45c9-bd8d-9dc5710bab74" type="Class" typeId="04e12b51-ed12-42a3-9667-a6aa81bb6d10">
+  <name>ToyEntity</name>
+  <display>ToyEntity</display>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-manually</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>7b1366bf-b8b8-400c-b87e-b0292a114820</parentFolderId>
+  <packageId>7b1366bf-b8b8-400c-b87e-b0292a114820</packageId>
+  <packageName>Mastermind</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="76150e06-6f8a-4b39-90e3-79d93186b896" name="Entity Options">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Qbic.Data</definitionPackageName>
+      <definitionPackageId>8c43818d-381e-458e-9e5e-8070ee891e2d</definitionPackageId>
+      <properties>
+        <property name="b29a006b-eb92-40ac-a275-3323945cc58a" display="Tenant Entity" value="true" isActive="true" />
+        <property name="7dc8e214-ce62-4bac-9a70-7d6233825636" display="Add Validator" value="false" isActive="true" />
+        <property name="f385d722-f1f5-4a0f-ac90-873fd906d921" display="Add Extensions" value="false" isActive="true" />
+        <property name="9eafd49a-c5a0-4389-86eb-eed98e1bfd4a" display="Exclude From Migrations" value="false" isActive="true" />
+        <property name="6846556e-4d6c-4feb-b0c0-94538cc9eadd" display="Has No Key" value="false" isActive="true" />
+      </properties>
+    </stereotype>
+    <stereotype stereotypeDefinitionId="dd205b32-b48b-4c77-98f5-faefb2c047ce" name="Table">
+      <addedByDefault>false</addedByDefault>
+      <definitionPackageName>Intent.Metadata.RDBMS</definitionPackageName>
+      <definitionPackageId>AF8F3810-745C-42A2-93C8-798860DC45B1</definitionPackageId>
+      <properties>
+        <property name="2b3a9df7-65e1-4800-b919-bef1a6b8f5a9" display="Name" value="Toy" isActive="true" />
+        <property name="13e6101f-0e37-4eda-a6ae-ec48cd9f8f4b" display="Schema" value="" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+  <metadata />
+  <childElements>
+    <childElement id="073b04c8-c486-4a88-8fd4-23636181b6c2" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
+      <name>ToyID</name>
+      <display>ToyID: long</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="e498f999-0c81-40d2-b3ac-9bc1664b0695">
+        <typeId>33013006-E404-48C2-AC46-24EF5A5774FD</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>add87a20-c0ac-45c9-bd8d-9dc5710bab74</parentFolderId>
+      <packageId>7b1366bf-b8b8-400c-b87e-b0292a114820</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="b0110c59-19ba-423d-b15d-0e5958a80ded" name="Model Property Options">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Qbic.Common</definitionPackageName>
+          <definitionPackageId>130ba41c-beb4-4de4-8145-4bb65d258b3b</definitionPackageId>
+          <properties>
+            <property name="d820ec38-35bd-4774-b5cf-df609877ae8f" display="Virtual" value="false" isActive="true" />
+            <property name="95146b4e-42f3-49bd-8976-c87332296a54" display="Readonly" value="false" isActive="true" />
+            <property name="19f3c043-cba2-4e64-a29f-40bb07cf7f98" display="Collection Format" isActive="false" />
+            <property name="cbf85d63-c938-4912-9194-c2bcdeeb9233" display="Initialize Collection" value="false" isActive="false" />
+            <property name="31060f34-1503-4904-9412-387418679dfd" display="Initialize As" value="List" isActive="false" />
+          </properties>
+        </stereotype>
+        <stereotype stereotypeDefinitionId="b99aac21-9ca4-467f-a3a6-046255a9eed6" name="Primary Key">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Intent.Metadata.RDBMS</definitionPackageName>
+          <definitionPackageId>AF8F3810-745C-42A2-93C8-798860DC45B1</definitionPackageId>
+          <properties>
+            <property name="4c1e3f7e-61d4-460d-bd20-c2edbc0c0e2e" display="Identity" value="true" isActive="true" />
+            <property name="a7a5e921-18b9-43b4-8078-b4ac4e5dae6f" display="Data source" value="Default" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="0c5b4ded-9b87-4c93-bfec-5344574da7a5" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
+      <name>Name</name>
+      <display>Name: string</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="5a09dd54-7a14-495d-823f-1b429d5b2893">
+        <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>add87a20-c0ac-45c9-bd8d-9dc5710bab74</parentFolderId>
+      <packageId>7b1366bf-b8b8-400c-b87e-b0292a114820</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="b0110c59-19ba-423d-b15d-0e5958a80ded" name="Model Property Options">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Qbic.Common</definitionPackageName>
+          <definitionPackageId>130ba41c-beb4-4de4-8145-4bb65d258b3b</definitionPackageId>
+          <properties>
+            <property name="d820ec38-35bd-4774-b5cf-df609877ae8f" display="Virtual" value="false" isActive="true" />
+            <property name="95146b4e-42f3-49bd-8976-c87332296a54" display="Readonly" value="false" isActive="true" />
+            <property name="19f3c043-cba2-4e64-a29f-40bb07cf7f98" display="Collection Format" isActive="false" />
+            <property name="cbf85d63-c938-4912-9194-c2bcdeeb9233" display="Initialize Collection" value="false" isActive="false" />
+            <property name="31060f34-1503-4904-9412-387418679dfd" display="Initialize As" value="List" isActive="false" />
+          </properties>
+        </stereotype>
+        <stereotype stereotypeDefinitionId="6347286E-A637-44D6-A5D7-D9BE5789CA7A" name="Text Constraints">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Intent.Metadata.RDBMS</definitionPackageName>
+          <definitionPackageId>AF8F3810-745C-42A2-93C8-798860DC45B1</definitionPackageId>
+          <properties>
+            <property name="1288cfcd-ee51-437e-9713-73b80118f026" display="SQL Data Type" value="DEFAULT" isActive="true" />
+            <property name="A04CC24D-81FB-4EA2-A34A-B3C58E04DCFD" display="MaxLength" isActive="true" />
+            <property name="67EC4CF4-7706-4B39-BC7C-DF539EE2B0AF" display="IsUnicode" value="false" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

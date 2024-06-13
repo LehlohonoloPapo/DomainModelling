@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="2351e0b4-f4cc-4df2-99da-d0150802a32c" type="Enum" typeId="85fba0e9-9161-4c85-a603-a229ef312beb">
+  <name>StorageTypeEnum</name>
+  <display>StorageTypeEnum</display>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-manually</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>7b1366bf-b8b8-400c-b87e-b0292a114820</parentFolderId>
+  <packageId>7b1366bf-b8b8-400c-b87e-b0292a114820</packageId>
+  <packageName>Mastermind</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="49d12216-96bb-4890-96a7-16c46cb41ca4" name="Lookup Set">
+      <addedByDefault>false</addedByDefault>
+      <definitionPackageName>Qbic.Lookup</definitionPackageName>
+      <definitionPackageId>dad425c3-6290-40f0-828b-e22d65cdf648</definitionPackageId>
+      <properties>
+        <property name="9175d6a7-9c33-4e16-933d-0e3fd4b14d61" display="Custom Set Name" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+  <metadata />
+  <childElements>
+    <childElement id="05094f74-d4c5-4538-924a-0835c92bb5f6" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <name>Shelf</name>
+      <display>Shelf = 1000</display>
+      <isAbstract>false</isAbstract>
+      <value>1000</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>2351e0b4-f4cc-4df2-99da-d0150802a32c</parentFolderId>
+      <packageId>7b1366bf-b8b8-400c-b87e-b0292a114820</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="d4734743-0a3b-4eda-b26a-e0947bca6608" name="Lookup Description">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Qbic.Lookup</definitionPackageName>
+          <definitionPackageId>dad425c3-6290-40f0-828b-e22d65cdf648</definitionPackageId>
+          <properties>
+            <property name="40df59ca-e46d-407b-b649-1ab9d0cfda5b" display="Description" value="Stored on bookshelf" isActive="true" />
+            <property name="191d12aa-5050-43fe-a0b7-76d290f51158" display="Locale" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="d9e3a383-b564-4c78-b253-9b0419ff58b8" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <name>Box</name>
+      <display>Box = 1001</display>
+      <isAbstract>false</isAbstract>
+      <value>1001</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>2351e0b4-f4cc-4df2-99da-d0150802a32c</parentFolderId>
+      <packageId>7b1366bf-b8b8-400c-b87e-b0292a114820</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="d4734743-0a3b-4eda-b26a-e0947bca6608" name="Lookup Description">
+          <addedByDefault>false</addedByDefault>
+          <definitionPackageName>Qbic.Lookup</definitionPackageName>
+          <definitionPackageId>dad425c3-6290-40f0-828b-e22d65cdf648</definitionPackageId>
+          <properties>
+            <property name="40df59ca-e46d-407b-b649-1ab9d0cfda5b" display="Description" value="Stored in the box" isActive="true" />
+            <property name="191d12aa-5050-43fe-a0b7-76d290f51158" display="Locale" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

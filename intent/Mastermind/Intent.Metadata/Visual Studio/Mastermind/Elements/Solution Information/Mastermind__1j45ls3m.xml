@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="88020016-73ff-4900-8f8c-0e4794d58eb1" type="Solution Information" typeId="10b59758-e718-49a3-ad53-5278b665d359">
+  <name>Mastermind</name>
+  <display>Mastermind</display>
+  <externalReference>4bf4c2ff-0722-403b-a861-9bc7f00c0947</externalReference>
+  <isAbstract>false</isAbstract>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>3918a2d8-ee65-4f17-bcab-1c39774eb7e1</parentFolderId>
+  <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+  <packageName>Mastermind</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="9b74fc02-675c-4333-8191-3ed4d855260d" name="Solution Settings">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Qbic.Common</definitionPackageName>
+      <definitionPackageId>130ba41c-beb4-4de4-8145-4bb65d258b3b</definitionPackageId>
+      <properties>
+        <property name="1fb3560d-58fb-425b-adae-c25875f8a118" display="Application Area" value="Hackweel" isActive="true" />
+        <property name="e8c47649-3409-4354-bc58-26b403ba2cda" display="Current Application Version" value="1365317e-d730-4a44-ab3b-71cf0a03cd7d" isActive="true" />
+        <property name="2c643683-0263-4c6c-8afe-a9c2a00a1703" display="Amber Version" value="8.1" isActive="true" />
+        <property name="2e1d4a1a-660b-4b60-8ad3-61d4c6c2b9f8" display="Amber Version Channel" value="preview" isActive="true" />
+        <property name="5e800e47-05f0-4542-a17e-994249924147" display="Specific Amber Version" isActive="false" />
+        <property name="faac42de-9193-4fa6-a74c-ca0b35e5449b" display="Nuget Package Source Name" value="" isActive="true" />
+        <property name="24e59a58-fae4-4fb8-9234-13da2eca2780" display="Nuget Package Source" value="" isActive="true" />
+        <property name="4c830e76-dea2-4e64-9b3b-90d0cd1c7091" display="Helm Package Source" value="" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+  <metadata />
+  <childElements />
+</class>

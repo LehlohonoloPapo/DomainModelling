@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Mastermind</RootNamespace>
+    <AssemblyName>Mastermind.Contracts</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <IsPackable>False</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Amber.Dotnet.Contracts" />
+    <PackageReference Include="Intent.RoslynWeaver.Attributes" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Amber" />
+    <Using Include="Amber.Extensions" />
+    <Using Include="Amber.Settings" />
+    <Using Include="Microsoft.FeatureManagement" />
+    <Using Include="System.Diagnostics.CodeAnalysis" />
+    <Using Include="System.Linq" />
+    <Using Include="System.Runtime.CompilerServices" />
+    <Using Include="System.Runtime.Serialization" />
+    <Using Include="System.Text.Json.Serialization" />
+  </ItemGroup>
+</Project>

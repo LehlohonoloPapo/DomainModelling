@@ -1,0 +1,58 @@
+<Project>
+
+    <PropertyGroup>
+        <!-- Amber Framework Version -->
+        <AmberFrameworkVersion>8.1.*-preview.*</AmberFrameworkVersion>
+
+        <!-- Shared Assembly Information -->
+        <Copyright>BrightRock 2022</Copyright>
+        <Company>BrightRock (Pty) Ltd</Company>
+        <Authors>BrightRock (Pty) Ltd</Authors>
+
+        <!-- Default Csharp settings -->
+        <LangVersion>11.0</LangVersion>
+        <RestorePackages>true</RestorePackages>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+        <!-- Disabled compiler warnings -->
+        <!-- NU1803: You are running the 'restore' operation with an 'HTTP' source, 'http://api.source/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source. -->
+        <!-- CS1591: Missing XML comment for publicly visible type or member 'Type_or_Member' -->
+        <!-- NU1603: An approximate best match of package version was resolved -->
+		<NoWarn>$(NoWarn);NU1803;CS1591;NU1603</NoWarn>
+
+        <!-- Global project version -->
+        <MinVerSkip Condition="'$(Configuration)' == 'Debug'">true</MinVerSkip>
+        <MinVerMinimumMajorMinor>1.0</MinVerMinimumMajorMinor>
+		<MinVerDefaultPreReleaseIdentifiers>preview.0</MinVerDefaultPreReleaseIdentifiers>
+		<MinVerTagPrefix>v</MinVerTagPrefix>
+
+        <!-- Publish the repository URL in the built .nupkg (in the NuSpec <Repository> element) -->
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+
+        <!-- Embed source files that are not tracked by the source control manager in the PDB -->
+        <EmbedUntrackedSources>true</EmbedUntrackedSources>
+
+        <!-- Build symbol package (.snupkg) to distribute the PDB containing Source Link -->
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+
+        <!-- By default nothing should be packed unless explicitly stated in the project -->
+		<IsPackable>false</IsPackable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <!-- Source link package reference -->
+        <PackageReference Include="Microsoft.SourceLink.AzureDevOpsServer.Git" Version="8.0.0" PrivateAssets="All"/>
+        
+        <!-- Minver package references -->
+        <PackageReference Include="MinVer" Version="4.3.0" PrivateAssets="All"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <!-- Source link git host -->
+        <SourceLinkAzureDevOpsServerGitHost Include="brcdvap101" />
+    </ItemGroup>
+
+</Project>

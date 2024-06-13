@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="d9b97048-8157-4c6e-beab-110a410013df" type="Octopus Deploy Project" typeId="110de10f-43d5-4c45-abef-b5fa62f0d70c">
+  <name>Mastermind</name>
+  <display>Mastermind</display>
+  <externalReference>839aad59-06ae-480c-bd6b-4a7a1ce82e06</externalReference>
+  <isAbstract>false</isAbstract>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>3918a2d8-ee65-4f17-bcab-1c39774eb7e1</parentFolderId>
+  <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+  <packageName>Mastermind</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="8407f774-4b67-442b-8ed7-97a9219c511e" name="Octopus Project Details">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Qbic.DevOps</definitionPackageName>
+      <definitionPackageId>552b280e-787e-4009-a63e-f6f9eaf1c76b</definitionPackageId>
+      <properties>
+        <property name="2f526ca2-d743-4ce8-8da6-638992bd4c48" display="Space" value="DevOps" isActive="true" />
+        <property name="a10c583f-97b9-4f67-8d6c-2f3079558e4c" display="Description" value="something meaningful" isActive="true" />
+        <property name="43e01d8c-8c28-4da1-943b-e3ce05e62220" display="Process Type" value="Designed Process" isActive="true" />
+        <property name="97018563-d85c-4a5f-83df-5c940f24caec" display="Enable Configuration as Code" value="true" isActive="true" />
+        <property name="d9987b89-86fa-465b-bcc5-0305eab2219e" display="Default LifeCycle" value="release" isActive="true" />
+        <property name="845f263a-638b-4fc2-b085-4c0d77aeec92" display="Include Preview Channels" value="true" isActive="true" />
+        <property name="464f330a-25d3-482b-843a-4da1e74a5d06" display="Automatic Deployment LifeCycle Variants" value="false" isActive="true" />
+        <property name="deea3ff6-b257-48c1-9bb2-8444b2a654fd" display="Version Strategy Donor Step" isActive="false" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+  <metadata />
+  <childElements />
+</class>

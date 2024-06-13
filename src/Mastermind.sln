@@ -1,0 +1,99 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".src", ".src", "{3918A2D8-EE65-4F17-BCAB-1C39774EB7E1}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitattributes = ..\.gitattributes
+		..\.gitignore = ..\.gitignore
+		..\azure-pipelines.yml = ..\azure-pipelines.yml
+		.dockerignore = .dockerignore
+		.solutioninfo = .solutioninfo
+		Directory.Build.props = Directory.Build.props
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{2A6F61D9-F004-40B2-9297-DBB15EC111F0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mastermind", "Mastermind\Mastermind.csproj", "{ABD15A62-5676-4648-9302-364D23152415}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mastermind.EntityMigration", "Mastermind.EntityMigration\Mastermind.EntityMigration.csproj", "{5922375E-F889-42FA-AFC3-4ACC2B5338A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contracts", "Contracts", "{F66B277C-5A01-4E19-8F4F-159C5B180A1B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mastermind.Contracts", "Mastermind.Contracts\Mastermind.Contracts.csproj", "{87E258FE-CA9B-4A17-92E8-0D9881C0E950}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{77D51FDD-B5B4-4982-A3B3-EB3954068938}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mastermind.Data", "Mastermind.Data\Mastermind.Data.csproj", "{1E136D99-0A9E-4921-B932-AE60E1E7AAEB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mastermind.Services", "Mastermind.Services\Mastermind.Services.csproj", "{597DEDE6-B040-496E-93B9-40CA46065707}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B1D56BF3-31DD-412E-AEE9-962807B88265}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mastermind.Tests", "Mastermind.Tests\Mastermind.Tests.csproj", "{3A7BE898-A3EF-4042-ABA1-5DE17626462A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "charts", "charts", "{0F3CEDB3-9F02-40E1-BA9F-CFC0B029C4E2}"
+	ProjectSection(SolutionItems) = preProject
+		..\charts\.gitignore = ..\charts\.gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".octopus", ".octopus", "{DB668665-D761-428D-AA1E-580C15D4C36F}"
+	ProjectSection(SolutionItems) = preProject
+		..\.octopus\mastermind.projects.json = ..\.octopus\mastermind.projects.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mastermind", "Mastermind", "{E2E07F50-9F3F-472D-BBB1-C9D51DFC11E0}"
+	ProjectSection(SolutionItems) = preProject
+		..\.octopus\Mastermind\deployment_process.ocl = ..\.octopus\Mastermind\deployment_process.ocl
+		..\.octopus\Mastermind\deployment_settings.ocl = ..\.octopus\Mastermind\deployment_settings.ocl
+		..\.octopus\Mastermind\schema_version.ocl = ..\.octopus\Mastermind\schema_version.ocl
+		..\.octopus\Mastermind\variables.ocl = ..\.octopus\Mastermind\variables.ocl
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ABD15A62-5676-4648-9302-364D23152415} = {2A6F61D9-F004-40B2-9297-DBB15EC111F0}
+		{5922375E-F889-42FA-AFC3-4ACC2B5338A7} = {2A6F61D9-F004-40B2-9297-DBB15EC111F0}
+		{87E258FE-CA9B-4A17-92E8-0D9881C0E950} = {F66B277C-5A01-4E19-8F4F-159C5B180A1B}
+		{1E136D99-0A9E-4921-B932-AE60E1E7AAEB} = {77D51FDD-B5B4-4982-A3B3-EB3954068938}
+		{597DEDE6-B040-496E-93B9-40CA46065707} = {77D51FDD-B5B4-4982-A3B3-EB3954068938}
+		{3A7BE898-A3EF-4042-ABA1-5DE17626462A} = {B1D56BF3-31DD-412E-AEE9-962807B88265}
+		{0F3CEDB3-9F02-40E1-BA9F-CFC0B029C4E2} = {3918A2D8-EE65-4F17-BCAB-1C39774EB7E1}
+		{DB668665-D761-428D-AA1E-580C15D4C36F} = {3918A2D8-EE65-4F17-BCAB-1C39774EB7E1}
+		{E2E07F50-9F3F-472D-BBB1-C9D51DFC11E0} = {DB668665-D761-428D-AA1E-580C15D4C36F}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABD15A62-5676-4648-9302-364D23152415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABD15A62-5676-4648-9302-364D23152415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABD15A62-5676-4648-9302-364D23152415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABD15A62-5676-4648-9302-364D23152415}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5922375E-F889-42FA-AFC3-4ACC2B5338A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5922375E-F889-42FA-AFC3-4ACC2B5338A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5922375E-F889-42FA-AFC3-4ACC2B5338A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5922375E-F889-42FA-AFC3-4ACC2B5338A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87E258FE-CA9B-4A17-92E8-0D9881C0E950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87E258FE-CA9B-4A17-92E8-0D9881C0E950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87E258FE-CA9B-4A17-92E8-0D9881C0E950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87E258FE-CA9B-4A17-92E8-0D9881C0E950}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E136D99-0A9E-4921-B932-AE60E1E7AAEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E136D99-0A9E-4921-B932-AE60E1E7AAEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E136D99-0A9E-4921-B932-AE60E1E7AAEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E136D99-0A9E-4921-B932-AE60E1E7AAEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{597DEDE6-B040-496E-93B9-40CA46065707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{597DEDE6-B040-496E-93B9-40CA46065707}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{597DEDE6-B040-496E-93B9-40CA46065707}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{597DEDE6-B040-496E-93B9-40CA46065707}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A7BE898-A3EF-4042-ABA1-5DE17626462A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A7BE898-A3EF-4042-ABA1-5DE17626462A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A7BE898-A3EF-4042-ABA1-5DE17626462A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A7BE898-A3EF-4042-ABA1-5DE17626462A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

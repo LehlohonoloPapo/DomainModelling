@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="3918a2d8-ee65-4f17-bcab-1c39774eb7e1" type="Solution Folder" typeId="0dc2b846-c968-49eb-99b7-8776919313a8">
+  <name>.src</name>
+  <display>.src</display>
+  <externalReference>20906b57-5fff-4e2a-9dae-c59ac6e1bbe1</externalReference>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-by-name</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>22311807-29a2-4614-a20f-ef4c90cec689</parentFolderId>
+  <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+  <packageName>Mastermind</packageName>
+  <stereotypes />
+  <metadata />
+  <childElements>
+    <childElement id="8e034c00-1fb0-4144-ab23-ffe4e3d56561" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+      <name>devops</name>
+      <display>devops</display>
+      <externalReference>73d85b7e-13a4-4066-9dbb-0841d9026c92</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>3918a2d8-ee65-4f17-bcab-1c39774eb7e1</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="fbfc7d7e-4731-4fa2-911f-17ee9e30da04" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+      <name>host</name>
+      <display>host</display>
+      <externalReference>fb0dbcd0-9f0b-44ab-b1b3-b381246fe852</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>3918a2d8-ee65-4f17-bcab-1c39774eb7e1</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="95ac3977-353a-4413-b082-116acb0dff95" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+      <name>octopus</name>
+      <display>octopus</display>
+      <externalReference>8ecc7544-d6a1-44e7-8355-40b6aff8e1a0</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>3918a2d8-ee65-4f17-bcab-1c39774eb7e1</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="906fb704-6001-4d2a-b9ad-daf3b722ab42" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+      <name>solution</name>
+      <display>solution</display>
+      <externalReference>e84b498c-6102-4df0-a4ef-23f3faaff96b</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>3918a2d8-ee65-4f17-bcab-1c39774eb7e1</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="9848788f-4572-4916-b553-89fd2fb2ad84" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.DevOps.AzureDevopsV2.AzurePipeline</name>
+      <display>Qbic.DevOps.AzureDevopsV2.AzurePipeline</display>
+      <externalReference>Qbic.DevOps</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>3918a2d8-ee65-4f17-bcab-1c39774eb7e1</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="5aa05ee5-a507-495c-a57c-62e8d958599c" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.DevOps.Helm.Chart</name>
+      <display>Qbic.DevOps.Helm.Chart</display>
+      <externalReference>Qbic.DevOps</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>3918a2d8-ee65-4f17-bcab-1c39774eb7e1</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="bb2d8544-d041-4fbf-8349-02f5dac799e4" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.DevOps.Helm.ChartNuspec</name>
+      <display>Qbic.DevOps.Helm.ChartNuspec</display>
+      <externalReference>Qbic.DevOps</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>3918a2d8-ee65-4f17-bcab-1c39774eb7e1</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="62194f3d-e1bd-4b4f-bd8a-47ae7f55db13" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.DevOps.Helm.ChartsGitIgnore</name>
+      <display>Qbic.DevOps.Helm.ChartsGitIgnore</display>
+      <externalReference>Qbic.DevOps</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>3918a2d8-ee65-4f17-bcab-1c39774eb7e1</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="5e6f55b4-d759-4641-8b16-afc78702bc6a" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.DevOps.Helm.CustomTemplate</name>
+      <display>Qbic.DevOps.Helm.CustomTemplate</display>
+      <externalReference>Qbic.DevOps</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>3918a2d8-ee65-4f17-bcab-1c39774eb7e1</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="8cf04371-57f4-42f4-b495-bad0a9ac9418" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.DevOps.Helm.HelmIgnore</name>
+      <display>Qbic.DevOps.Helm.HelmIgnore</display>
+      <externalReference>Qbic.DevOps</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>3918a2d8-ee65-4f17-bcab-1c39774eb7e1</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="88ddf2b4-82fb-44fe-9fac-798cc32207e2" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.DevOps.Helm.RuntimeDeploymentV1Template</name>
+      <display>Qbic.DevOps.Helm.RuntimeDeploymentV1Template</display>
+      <externalReference>Qbic.DevOps</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>3918a2d8-ee65-4f17-bcab-1c39774eb7e1</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="d9df82ef-8b75-4e22-bc0d-f6db9342b4f9" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.DevOps.Helm.Values</name>
+      <display>Qbic.DevOps.Helm.Values</display>
+      <externalReference>Qbic.DevOps</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>3918a2d8-ee65-4f17-bcab-1c39774eb7e1</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="e5056568-aa55-4582-b4cf-2c7a854a5eac" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.DevOps.Helm.ValuesInclude</name>
+      <display>Qbic.DevOps.Helm.ValuesInclude</display>
+      <externalReference>Qbic.DevOps</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>3918a2d8-ee65-4f17-bcab-1c39774eb7e1</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="aa23aff7-c8ba-4c5b-be3a-be6b08027c04" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.DevOps.Helm.ValuesOctopus</name>
+      <display>Qbic.DevOps.Helm.ValuesOctopus</display>
+      <externalReference>Qbic.DevOps</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>3918a2d8-ee65-4f17-bcab-1c39774eb7e1</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="bd52254e-40d9-4734-9f0b-30e0cbacb517" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.DevOps.OctopusV2.DeploymentProcess</name>
+      <display>Qbic.DevOps.OctopusV2.DeploymentProcess</display>
+      <externalReference>Qbic.DevOps</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>3918a2d8-ee65-4f17-bcab-1c39774eb7e1</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="0e971e1f-885e-4107-b1ef-2aa28920b891" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.DevOps.OctopusV2.DeploymentSettings</name>
+      <display>Qbic.DevOps.OctopusV2.DeploymentSettings</display>
+      <externalReference>Qbic.DevOps</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>3918a2d8-ee65-4f17-bcab-1c39774eb7e1</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="6af8ee74-4af0-466b-ad28-7c97dd40984e" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.DevOps.OctopusV2.ProjectsJson</name>
+      <display>Qbic.DevOps.OctopusV2.ProjectsJson</display>
+      <externalReference>Qbic.DevOps</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>3918a2d8-ee65-4f17-bcab-1c39774eb7e1</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="11591ccb-a72d-48d7-a9cd-1ece083d430d" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.DevOps.OctopusV2.SchemaVersion</name>
+      <display>Qbic.DevOps.OctopusV2.SchemaVersion</display>
+      <externalReference>Qbic.DevOps</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>3918a2d8-ee65-4f17-bcab-1c39774eb7e1</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="7b3f6c4e-be58-4975-b434-a49b86ad23ce" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.DevOps.OctopusV2.Variables</name>
+      <display>Qbic.DevOps.OctopusV2.Variables</display>
+      <externalReference>Qbic.DevOps</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>3918a2d8-ee65-4f17-bcab-1c39774eb7e1</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="38094aaa-07a5-4847-b7f8-d74fe54a23da" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.Host.ApplicationRootModule</name>
+      <display>Qbic.Host.ApplicationRootModule</display>
+      <externalReference>Qbic.Host</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>3918a2d8-ee65-4f17-bcab-1c39774eb7e1</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="d044520b-1411-4b9e-ac3d-3fb4bd5ae1a2" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.Host.DefaultApplicationSettings</name>
+      <display>Qbic.Host.DefaultApplicationSettings</display>
+      <externalReference>Qbic.Host</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>3918a2d8-ee65-4f17-bcab-1c39774eb7e1</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="6d0ed106-d158-4be4-95e9-89515c07da01" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.Host.GeneratedProgram</name>
+      <display>Qbic.Host.GeneratedProgram</display>
+      <externalReference>Qbic.Host</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>3918a2d8-ee65-4f17-bcab-1c39774eb7e1</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="164993a5-622f-4ef2-88f4-bfde9ba915b3" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.Solution.DirectoryBuildProps</name>
+      <display>Qbic.Solution.DirectoryBuildProps</display>
+      <externalReference>Qbic.Solution</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>3918a2d8-ee65-4f17-bcab-1c39774eb7e1</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="8e64d9b0-fa8d-4051-9cd2-59ae5f82d225" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.Solution.GenerateCustomDockerfile</name>
+      <display>Qbic.Solution.GenerateCustomDockerfile</display>
+      <externalReference>Qbic.Solution</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>3918a2d8-ee65-4f17-bcab-1c39774eb7e1</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="80499469-2079-4b92-bee5-cfeab64e0a9b" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.Solution.GenerateDotnetDockerfile</name>
+      <display>Qbic.Solution.GenerateDotnetDockerfile</display>
+      <externalReference>Qbic.Solution</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>3918a2d8-ee65-4f17-bcab-1c39774eb7e1</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="565340ff-201f-4dcb-94fb-2c8dbea25783" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.Solution.GenerateNuspec</name>
+      <display>Qbic.Solution.GenerateNuspec</display>
+      <externalReference>Qbic.Solution</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>3918a2d8-ee65-4f17-bcab-1c39774eb7e1</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="55633b8c-94fa-4df5-ab53-f1b09ef9baca" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.Solution.GenerateVersionsets</name>
+      <display>Qbic.Solution.GenerateVersionsets</display>
+      <externalReference>Qbic.Solution</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>3918a2d8-ee65-4f17-bcab-1c39774eb7e1</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="6984f1df-672a-40c9-8c9b-0ffe3e7ec1f5" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.Solution.SolutionDockerIgnore</name>
+      <display>Qbic.Solution.SolutionDockerIgnore</display>
+      <externalReference>Qbic.Solution</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>3918a2d8-ee65-4f17-bcab-1c39774eb7e1</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="cfe565da-94fe-4487-bf61-2c6bca75eba3" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.Solution.SolutionGitAttributes</name>
+      <display>Qbic.Solution.SolutionGitAttributes</display>
+      <externalReference>Qbic.Solution</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>3918a2d8-ee65-4f17-bcab-1c39774eb7e1</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="492dcdca-9a4d-4eea-ab25-1a7d11fc6b1a" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.Solution.SolutionGitIgnore</name>
+      <display>Qbic.Solution.SolutionGitIgnore</display>
+      <externalReference>Qbic.Solution</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>3918a2d8-ee65-4f17-bcab-1c39774eb7e1</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="15ef6d40-ce0a-4220-bb3f-6154e4987a08" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.Solution.SolutionInfo</name>
+      <display>Qbic.Solution.SolutionInfo</display>
+      <externalReference>Qbic.Solution</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>3918a2d8-ee65-4f17-bcab-1c39774eb7e1</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="418cd04d-7619-460b-9788-003b85c4b927" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.Solution.SolutionNugetConfig</name>
+      <display>Qbic.Solution.SolutionNugetConfig</display>
+      <externalReference>Qbic.Solution</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>3918a2d8-ee65-4f17-bcab-1c39774eb7e1</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Mastermind.EntityMigration</RootNamespace>
+    <AssemblyName>Mastermind.EntityMigration</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <IsPackable>True</IsPackable>
+    <PackageId>Mastermind.EntityMigration</PackageId>
+    <PackageTags>Mastermind EntityMigration EntityMigrations</PackageTags>
+    <PackAsTool>True</PackAsTool>
+    <ToolCommandName>mastermind.entity-migration</ToolCommandName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Mastermind.Data\Mastermind.Data.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="appsettings.Debug.json">
+      <DependentUpon>appsettings.json</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Amber.Framework.Migrations" />
+    <PackageReference Include="Intent.RoslynWeaver.Attributes" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="Amber" />
+    <Using Include="Amber.DependencyInjection" />
+    <Using Include="Amber.Extensions" />
+    <Using Include="Amber.Framework.Hosting" />
+    <Using Include="Amber.Framework.Logging" />
+    <Using Include="Amber.Framework.Serialization" />
+    <Using Include="Amber.Migrations" />
+    <Using Include="Amber.Settings" />
+    <Using Include="Microsoft.FeatureManagement" />
+    <Using Include="System.Diagnostics.CodeAnalysis" />
+    <Using Include="System.Linq" />
+    <Using Include="System.Runtime.CompilerServices" />
+    <Using Include="System.Runtime.Serialization" />
+    <Using Include="System.Text.Json.Serialization" />
+  </ItemGroup>
+</Project>

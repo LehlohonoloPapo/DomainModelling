@@ -1,0 +1,14 @@
+{
+  "AmberFrameworkVersion": "8.1.*-preview.*",
+  "IsPreview": true,
+  "AmberVersion": "8.1",
+  "ApplicationArea": "Hackweel",
+  "CurrentApplicationVersion": "1.0",
+  "NugetPackageSourceName": "",
+  "NugetPackageSource": "",
+  "HelmPackageSource": "",
+  "SolutionDependencies": {},
+  "Versions": [
+    "1.0"
+  ]
+}

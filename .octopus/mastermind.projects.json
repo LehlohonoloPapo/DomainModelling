@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Mastermind",
+    "group": "Hackweel",
+    "description": "something meaningful",
+    "space": "DevOps",
+    "enable_coc": true,
+    "include_preview_channels": true,
+    "include_teardown_channel": false,
+    "default_lifecycle": "release",
+    "auto_lifecycles": false
+  }
+]

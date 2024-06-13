@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="597dede6-b040-496e-93b9-40ca46065707" type="C# Project (.NET)" typeId="8e9e6693-2888-4f48-a0d6-0f163baab740">
+  <name>Mastermind.Services</name>
+  <display>Mastermind.Services</display>
+  <externalReference>837623c7-9377-4f6d-8fb8-2adc4c988d6d</externalReference>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-by-name</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>77d51fdd-b5b4-4982-a3b3-eb3954068938</parentFolderId>
+  <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+  <packageName>Mastermind</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="a490a23f-5397-40a1-a3cb-6da7e0b467c0" name=".NET Settings">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+      <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+      <properties>
+        <property name="1f0cdbc4-7a18-40a5-aeca-90452cce4fcf" display="SDK" value="Microsoft.NET.Sdk" isActive="true" />
+        <property name="252d4572-8255-4e87-9bd9-ede6220f44c1" display="Use top-level statements" value="false" isActive="false" />
+        <property name="8f218e6c-9115-42d1-ad23-9b0403bfbcb4" display="Use minimal hosting model" value="false" isActive="false" />
+        <property name="6a7d81d7-351e-4cdf-a596-142a74507455" display="Output Type" isActive="true" />
+        <property name="9da51e12-529a-4592-9119-491d7bc9d5d5" display="Azure Functions Version" isActive="true" />
+        <property name="e1cab7e9-28f1-4e82-8c02-bfb9e460d9e0" display="Target Multiple Frameworks" value="false" isActive="true" />
+        <property name="d53ab03c-90cf-4b6a-b733-73b6983ab603" display="Target Framework" value="f8b1618d-1e64-4c2c-9787-e0725c3633a1" isActive="true" />
+        <property name="b9685057-b337-42d8-9536-d0185ea69b73" display="Target Frameworks" value="" isActive="false" />
+        <property name="8ee6e435-e556-439c-9712-a3f287972813" display="Runtime Identifiers" isActive="true" />
+        <property name="c9fc7052-9557-4485-a759-fa33363472b3" display="Configurations" isActive="true" />
+        <property name="c27f8813-bee4-4289-81e5-570e755a8f30" display="Root Namespace" value="Mastermind.Services" isActive="true" />
+        <property name="a6660df2-6016-40c6-8453-8e5993f407c9" display="User Secrets Id" isActive="true" />
+        <property name="16ac8254-c83f-42d9-98bb-db9c0532bce6" display="Generate Runtime Configuration Files" isActive="true" />
+        <property name="94e630db-ee2b-4d4f-a423-19d3469178fa" display="Generate Documentation File" isActive="true" />
+        <property name="d6c50001-ac9d-4819-94a9-8b6aa7f02e47" display="Assembly Name" value="Mastermind.Services" isActive="true" />
+        <property name="7cc174e3-ca2f-4f79-bb52-c7a3a4a7e5eb" display="Implicit Usings" isActive="true" />
+        <property name="575dbd4e-f038-4c92-a411-63c1e3e0d8d7" display="Suppress Warnings" value="$(NoWarn)" isActive="true" />
+        <property name="6de4cc6f-2476-461c-9be9-b6ac0592a827" display="Manage Package Versions Centrally" isActive="true" />
+      </properties>
+    </stereotype>
+    <stereotype stereotypeDefinitionId="d9b43864-0370-401b-9e71-b1d286919500" name="C# Project Options">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+      <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+      <properties>
+        <property name="cb56677d-e132-4397-b2ec-3f47e950a111" display="Language Version" value="latest" isActive="true" />
+        <property name="5c953a82-78c4-4986-b204-df9fcbea5242" display="Relative Location" isActive="true" />
+        <property name="415a5406-0517-4c0e-ab60-bc809a23c308" display="Nullable Enabled" value="false" isActive="false" />
+        <property name="68a31b13-148b-45da-a6ea-5a6883f86438" display="Nullable" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+  <metadata />
+  <childElements>
+    <childElement id="8cced929-0020-4630-bdb6-010d837d3d3d" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.Conveyor.ConveyorContext</name>
+      <display>Qbic.Conveyor.ConveyorContext</display>
+      <externalReference>Qbic.Conveyor</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>597dede6-b040-496e-93b9-40ca46065707</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="09e182b7-9ad7-4159-833c-22a83b33ea6b" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.Conveyor.ConveyorModuleV2</name>
+      <display>Qbic.Conveyor.ConveyorModuleV2</display>
+      <externalReference>Qbic.Conveyor</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>597dede6-b040-496e-93b9-40ca46065707</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="bf656cb7-4781-49f2-a961-790ac81d0f9a" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.Conveyor.ConveyorRegisterV2</name>
+      <display>Qbic.Conveyor.ConveyorRegisterV2</display>
+      <externalReference>Qbic.Conveyor</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>597dede6-b040-496e-93b9-40ca46065707</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="48daf72c-a67f-4702-bbd8-e0a8991c39b8" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.Conveyor.ConveyorStep</name>
+      <display>Qbic.Conveyor.ConveyorStep</display>
+      <externalReference>Qbic.Conveyor</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>597dede6-b040-496e-93b9-40ca46065707</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="52c2e99a-0d7a-4fa5-884b-e6e5ccbf652e" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.Services.CQRS.CommandHandlerV2</name>
+      <display>Qbic.Services.CQRS.CommandHandlerV2</display>
+      <externalReference>Qbic.Services</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>597dede6-b040-496e-93b9-40ca46065707</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="e93b79e0-5f9d-4a9b-8777-d9bd8a7b46f7" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.Services.CQRS.QueryHandlerV2</name>
+      <display>Qbic.Services.CQRS.QueryHandlerV2</display>
+      <externalReference>Qbic.Services</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>597dede6-b040-496e-93b9-40ca46065707</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="eeca0048-0cb9-46e2-a800-b17305ed5621" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.Services.Service.ServiceImplementation</name>
+      <display>Qbic.Services.Service.ServiceImplementation</display>
+      <externalReference>Qbic.Services</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>597dede6-b040-496e-93b9-40ca46065707</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="727741ce-125a-47d6-bc80-d5cb1e39874b" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.Services.Service.ServiceInterface</name>
+      <display>Qbic.Services.Service.ServiceInterface</display>
+      <externalReference>Qbic.Services</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>597dede6-b040-496e-93b9-40ca46065707</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="c554047c-3e4a-4ce8-a173-a3a55fe9bb42" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.Services.ServicePackageModuleV2</name>
+      <display>Qbic.Services.ServicePackageModuleV2</display>
+      <externalReference>Qbic.Services</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>597dede6-b040-496e-93b9-40ca46065707</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="52b36071-c846-4ef2-9fbc-9f18b9f940c4" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.Services.ServicesImplementationModule</name>
+      <display>Qbic.Services.ServicesImplementationModule</display>
+      <externalReference>Qbic.Services</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>597dede6-b040-496e-93b9-40ca46065707</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="d42c1c11-077c-4db9-8e9a-beb5b5aaf899" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+      <name>conveyors</name>
+      <display>conveyors</display>
+      <externalReference>96349c2f-dfdf-4513-9b33-af21d1c4d8df</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>597dede6-b040-496e-93b9-40ca46065707</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="40a24e49-b2f1-489b-bfa4-6c7112b26b82" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+      <name>conveyors.context</name>
+      <display>conveyors.context</display>
+      <externalReference>4f0a642d-4ace-431b-8b25-a70cfdebeb17</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>597dede6-b040-496e-93b9-40ca46065707</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="9c9bb9c5-89a8-4c36-b330-9d1b46e7ed0b" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+      <name>conveyors.marker</name>
+      <display>conveyors.marker</display>
+      <externalReference>a185fcbf-c39d-4d6d-ba0d-3e00dc3c5d9b</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>597dede6-b040-496e-93b9-40ca46065707</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="6b2140e4-4c08-4e60-9caa-18f3794f91ad" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+      <name>conveyors.policy</name>
+      <display>conveyors.policy</display>
+      <externalReference>85449558-f186-4c25-b215-d4e4c5eb5bd0</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>597dede6-b040-496e-93b9-40ca46065707</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="0377588f-94fe-4880-836f-206ad40811d0" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+      <name>conveyors.register</name>
+      <display>conveyors.register</display>
+      <externalReference>1e9f8d66-ddf5-4e72-8a0f-88ad6434a1b2</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>597dede6-b040-496e-93b9-40ca46065707</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="7c95de07-4b0b-4645-b542-b886d6712445" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+      <name>conveyors.step</name>
+      <display>conveyors.step</display>
+      <externalReference>12933188-caf0-4849-925e-37477f2f9dbb</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>597dede6-b040-496e-93b9-40ca46065707</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="295d935e-b4b7-49c3-86e8-043d7e830877" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+      <name>services</name>
+      <display>services</display>
+      <externalReference>0af4d9f5-f876-43c2-881e-d631162340b0</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>597dede6-b040-496e-93b9-40ca46065707</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="7cc4f5a7-0d59-44d3-8272-594f0bfa8f1f" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+      <name>services.cqrs.command</name>
+      <display>services.cqrs.command</display>
+      <externalReference>d98ad277-f66c-4a86-a433-1a4176188865</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>597dede6-b040-496e-93b9-40ca46065707</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="5abaf4d3-7fb1-4516-bed6-c5bd3d8386db" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+      <name>services.cqrs.graph</name>
+      <display>services.cqrs.graph</display>
+      <externalReference>ac2c02ea-ad23-4944-b9a6-5b0732934756</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>597dede6-b040-496e-93b9-40ca46065707</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="80090cda-d80c-45cb-b666-da57eb908a10" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+      <name>services.cqrs.query</name>
+      <display>services.cqrs.query</display>
+      <externalReference>91b3965e-1630-426a-a6bc-a8c46155e775</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>597dede6-b040-496e-93b9-40ca46065707</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="1d6cbed8-fe90-4c8b-844a-348087f98abf" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+      <name>services.implementation</name>
+      <display>services.implementation</display>
+      <externalReference>7d797d5f-1ba8-4fb2-88c4-6eee7bb0a903</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>597dede6-b040-496e-93b9-40ca46065707</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="1e8f717d-4510-4891-ac62-e764a1a9cdcd" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+      <name>services.interface</name>
+      <display>services.interface</display>
+      <externalReference>d6a981b9-04e8-415b-b44c-70c42741b5fd</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>597dede6-b040-496e-93b9-40ca46065707</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="f4645079-7f53-48e2-8ce3-edceafc174b0" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+      <name>services.marker</name>
+      <display>services.marker</display>
+      <externalReference>5c562108-cefb-46ed-ae94-55646d76eb9a</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>597dede6-b040-496e-93b9-40ca46065707</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="8ad16b44-9015-446c-b6a9-b2cb02a14eb9" type="Diagram" typeId="4d66fecd-e9b8-436f-aa50-c59040ad0879">
+  <name>Default Diagram</name>
+  <display>Default Diagram</display>
+  <externalReference>d862307a-1f84-4da3-97d1-4695a2f78811</externalReference>
+  <isAbstract>false</isAbstract>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>7b1366bf-b8b8-400c-b87e-b0292a114820</parentFolderId>
+  <packageId>7b1366bf-b8b8-400c-b87e-b0292a114820</packageId>
+  <packageName>Mastermind</packageName>
+  <diagram>
+    <targetPackageId>7b1366bf-b8b8-400c-b87e-b0292a114820</targetPackageId>
+  </diagram>
+  <stereotypes />
+  <metadata />
+  <childElements />
+</class>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="826b455e-c0b1-4b22-8145-0cb8b50eb3fd" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+  <name>Validation</name>
+  <display>Validation</display>
+  <externalReference>4a84639f-15b9-431c-b533-539c9577d3dd</externalReference>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-by-name</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>87e258fe-ca9b-4a17-92e8-0d9881c0e950</parentFolderId>
+  <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+  <packageName>Mastermind</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+      <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+      <properties>
+        <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+  <metadata />
+  <childElements>
+    <childElement id="32041dbf-b1cc-48f7-acf3-93a43f96167a" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.Data.Contracts.ValueObjectValidator</name>
+      <display>Qbic.Data.Contracts.ValueObjectValidator</display>
+      <externalReference>Qbic.Data</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>826b455e-c0b1-4b22-8145-0cb8b50eb3fd</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="cad8df0d-914a-4588-920e-0ace257bfd1a" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.Dtos.DtoValidator</name>
+      <display>Qbic.Dtos.DtoValidator</display>
+      <externalReference>Qbic.Dtos</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>826b455e-c0b1-4b22-8145-0cb8b50eb3fd</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="db4c686c-2cd7-4084-9b4f-f390236e4668" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.Services.CQRS.CommandRequestValidator</name>
+      <display>Qbic.Services.CQRS.CommandRequestValidator</display>
+      <externalReference>Qbic.Services</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>826b455e-c0b1-4b22-8145-0cb8b50eb3fd</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="03ac0b87-1830-4c3c-976d-a3d06d6a7bf7" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>Qbic.Services.CQRS.QueryRequestValidator</name>
+      <display>Qbic.Services.CQRS.QueryRequestValidator</display>
+      <externalReference>Qbic.Services</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>826b455e-c0b1-4b22-8145-0cb8b50eb3fd</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="0d796832-9714-4af0-a7e5-d98129495b30" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+      <name>contracts.dto.validation</name>
+      <display>contracts.dto.validation</display>
+      <externalReference>23e36211-8e66-4b3b-bd8b-ddb31fb413f8</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>826b455e-c0b1-4b22-8145-0cb8b50eb3fd</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="16e889f3-f541-4df5-bcae-c32bdf9f4941" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+      <name>data.valueobject.validation</name>
+      <display>data.valueobject.validation</display>
+      <externalReference>67aac416-0a10-4f09-a2cd-d7396028b5b1</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>826b455e-c0b1-4b22-8145-0cb8b50eb3fd</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="f090746b-6246-468a-b0dc-ee24c71eb22b" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+      <name>services.cqrs.validation</name>
+      <display>services.cqrs.validation</display>
+      <externalReference>ceff36ba-b913-4936-a3f7-8106376cac0e</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>826b455e-c0b1-4b22-8145-0cb8b50eb3fd</parentFolderId>
+      <packageId>22311807-29a2-4614-a20f-ef4c90cec689</packageId>
+      <packageName>Mastermind</packageName>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

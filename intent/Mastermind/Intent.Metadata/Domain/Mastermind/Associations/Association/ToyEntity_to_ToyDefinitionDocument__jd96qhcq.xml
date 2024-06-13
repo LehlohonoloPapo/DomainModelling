@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="3cfd3eed-8906-403a-b414-fa7037f6703a">
+  <sourceEnd id="6452b409-e8e3-49fc-9c16-4b83def17867" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>ToyEntity</name>
+    <display>ToyEntity: ToyEntity</display>
+    <order>1</order>
+    <typeReference id="351e09e2-3fd3-4095-b6e7-b3b64500d275">
+      <typeId>add87a20-c0ac-45c9-bd8d-9dc5710bab74</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Mastermind</typePackageName>
+      <typePackageId>7b1366bf-b8b8-400c-b87e-b0292a114820</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+    <childElements />
+  </sourceEnd>
+  <targetEnd id="3cfd3eed-8906-403a-b414-fa7037f6703a" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>ToyDefinitionDocument</name>
+    <display>ToyDefinitionDocument: ToyDefinitionDocument</display>
+    <order>3</order>
+    <typeReference id="62014bcc-b383-49f7-aae4-37de842f29b9">
+      <typeId>91a52d9e-3110-416c-b379-41aba278936b</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Mastermind</typePackageName>
+      <typePackageId>7b1366bf-b8b8-400c-b87e-b0292a114820</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes>
+      <stereotype stereotypeDefinitionId="9a59efe2-0225-444a-b2e1-8295fdccea43" name="Association Options">
+        <addedByDefault>true</addedByDefault>
+        <definitionPackageName>Qbic.Data</definitionPackageName>
+        <definitionPackageId>8c43818d-381e-458e-9e5e-8070ee891e2d</definitionPackageId>
+        <properties>
+          <property name="83eca711-223b-4142-b2d9-d16369b7a631" display="Owned" value="true" isActive="true" />
+          <property name="4aa72975-7a10-49c5-8405-b30d21389d93" display="Json" value="true" isActive="true" />
+        </properties>
+      </stereotype>
+    </stereotypes>
+    <metadata />
+    <childElements />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="9a59efe2-0225-444a-b2e1-8295fdccea43" name="Association Options">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Qbic.Data</definitionPackageName>
+      <definitionPackageId>8c43818d-381e-458e-9e5e-8070ee891e2d</definitionPackageId>
+      <properties>
+        <property name="83eca711-223b-4142-b2d9-d16369b7a631" display="Owned" value="true" isActive="true" />
+        <property name="4aa72975-7a10-49c5-8405-b30d21389d93" display="Json" value="true" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+</association>
